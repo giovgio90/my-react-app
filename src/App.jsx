@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <ImageComponent imageProp={image} alt="react" style={{ margin: "3rem", border: "4px solid #33ACBA" }} />
       <ButtonComponent
-        title="Premi il bottone"
+        title="Sono un bottone"
         style={{
           border: "none",
           padding: "10px",

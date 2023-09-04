@@ -1,7 +1,9 @@
-const ImageComponent = (props) => (
-  <div>
-    <img src={props.imageProp} alt={props.alt} style={props.style} />
-  </div>
-);
+import React from "react";
+
+class ImageComponent extends React.Component {
+  render() {
+    return <img src={this.props.imageProp} alt={this.props.alt} style={this.props.style} />;
+  }
+}
 
 export default ImageComponent;
